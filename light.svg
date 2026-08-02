@@ -1,0 +1,173 @@
+<svg viewBox="0 0 1180 610" xmlns="http://www.w3.org/2000/svg" font-family="monospace">
+  <defs>
+    <clipPath id="terminal-clip">
+      <rect x="0" y="0" width="1180" height="610" rx="12" ry="12"/>
+    </clipPath>
+  </defs>
+
+  <!-- Terminal window -->
+  <g clip-path="url(#terminal-clip)">
+    <rect x="0" y="0" width="1180" height="610" fill="#F8FAFC"/>
+
+    <!-- Title bar -->
+    <rect x="0" y="0" width="1180" height="36" fill="#F8FAFC" opacity="0.9"/>
+    <circle cx="20" cy="18" r="6" fill="#FF5F56"/>
+    <circle cx="40" cy="18" r="6" fill="#FFBD2E"/>
+    <circle cx="60" cy="18" r="6" fill="#27C93F"/>
+    <text x="590.0" y="22" text-anchor="middle" font-size="13" fill="#1E293B" opacity="0.7">profile.sh --live</text>
+
+    <!-- Portrait frame (placeholder — awaiting photo) -->
+    <rect x="24" y="60" width="400" height="490" rx="6"
+          fill="none" stroke="#0891B2" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.5"/>
+    <text x="224.0" y="305.0" text-anchor="middle"
+          font-size="13" fill="#0891B2" opacity="0.6">VISUAL.MAP</text>
+    <text x="224.0" y="325.0" text-anchor="middle"
+          font-size="11" fill="#7C3AED" opacity="0.5">[ awaiting image ]</text>
+
+    <!-- Divider -->
+    <line x1="448" y1="50" x2="448" y2="580" stroke="#0891B2" stroke-width="1" opacity="0.25"/>
+
+    <!-- SYSTEM.INFO header -->
+    <text x="488" y="50" font-size="13" fill="#0891B2" letter-spacing="2" opacity="0.8">SYSTEM.INFO</text>
+
+    <!-- LIVE badge -->
+    <circle cx="1090" cy="45" r="4" fill="#EF4444">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="1100" y="49" font-size="12" fill="#EF4444" letter-spacing="1">LIVE</text>
+
+    <!-- Info rows -->
+    
+    <text x="488" y="70" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.85">Subject</text>
+    <text x="544" y="70" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.3">................................................................................................</text>
+    <text x="1140" y="70" font-family="monospace" font-size="14"
+          fill="#1E293B" text-anchor="end"
+          textLength="48" lengthAdjust="spacingAndGlyphs">Yeldos</text>
+
+    <text x="488" y="93" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.85">Role</text>
+    <text x="520" y="93" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.3">......................................................................................</text>
+    <text x="1140" y="93" font-family="monospace" font-size="14"
+          fill="#1E293B" text-anchor="end"
+          textLength="176" lengthAdjust="spacingAndGlyphs">Student / CS Undergrad</text>
+
+    <text x="488" y="116" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.85">Origin</text>
+    <text x="536" y="116" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.3">........................................................................................</text>
+    <text x="1140" y="116" font-family="monospace" font-size="14"
+          fill="#1E293B" text-anchor="end"
+          textLength="136" lengthAdjust="spacingAndGlyphs">Qazaly/Almaty, KZ</text>
+
+    <text x="488" y="139" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.85">Education</text>
+    <text x="560" y="139" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.3">..........................................................................................</text>
+    <text x="1140" y="139" font-family="monospace" font-size="14"
+          fill="#1E293B" text-anchor="end"
+          textLength="96" lengthAdjust="spacingAndGlyphs">IITU '23-'27</text>
+
+    <text x="488" y="162" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.85">Status</text>
+    <text x="536" y="162" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.3">.......................................................................................</text>
+    <text x="1140" y="162" font-family="monospace" font-size="14"
+          fill="#1E293B" text-anchor="end"
+          textLength="152" lengthAdjust="spacingAndGlyphs">Building + Learning</text>
+
+    <text x="488" y="185" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.85">ToolChain</text>
+    <text x="560" y="185" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.3">.......................................................................................</text>
+    <text x="1140" y="185" font-family="monospace" font-size="14"
+          fill="#1E293B" text-anchor="end"
+          textLength="128" lengthAdjust="spacingAndGlyphs">Linux, Git, Bash</text>
+
+    <text x="488" y="208" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.85">Core.Lang</text>
+    <text x="560" y="208" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.3">..............................................................................................</text>
+    <text x="1140" y="208" font-family="monospace" font-size="14"
+          fill="#1E293B" text-anchor="end"
+          textLength="48" lengthAdjust="spacingAndGlyphs">Python</text>
+
+    <text x="488" y="231" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.85">Core.Frontend</text>
+    <text x="592" y="231" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.3">...............................................................................................</text>
+    <text x="1140" y="231" font-family="monospace" font-size="14"
+          fill="#1E293B" text-anchor="end"
+          textLength="8" lengthAdjust="spacingAndGlyphs">-</text>
+
+    <text x="488" y="254" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.85">Core.Backend</text>
+    <text x="584" y="254" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.3">................................................................................................</text>
+    <text x="1140" y="254" font-family="monospace" font-size="14"
+          fill="#1E293B" text-anchor="end"
+          textLength="8" lengthAdjust="spacingAndGlyphs">-</text>
+
+    <text x="488" y="277" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.85">Core.Database</text>
+    <text x="592" y="277" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.3">...............................................................................................</text>
+    <text x="1140" y="277" font-family="monospace" font-size="14"
+          fill="#1E293B" text-anchor="end"
+          textLength="8" lengthAdjust="spacingAndGlyphs">-</text>
+
+    <text x="488" y="300" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.85">Core.Infra</text>
+    <text x="568" y="300" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.3">...........................................................................................</text>
+    <text x="1140" y="300" font-family="monospace" font-size="14"
+          fill="#1E293B" text-anchor="end"
+          textLength="80" lengthAdjust="spacingAndGlyphs">NixOS, Git</text>
+
+    <text x="488" y="323" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.85">Grid.Mail</text>
+    <text x="560" y="323" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.3">..................................................................................................</text>
+    <text x="1140" y="323" font-family="monospace" font-size="14"
+          fill="#1E293B" text-anchor="end"
+          textLength="8" lengthAdjust="spacingAndGlyphs">-</text>
+
+    <text x="488" y="346" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.85">Grid.Portfolio</text>
+    <text x="600" y="346" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.3">.......................................................................................</text>
+    <text x="1140" y="346" font-family="monospace" font-size="14"
+          fill="#1E293B" text-anchor="end"
+          textLength="88" lengthAdjust="spacingAndGlyphs">coming soon</text>
+
+    <text x="488" y="369" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.85">Grid.LinkedIn</text>
+    <text x="592" y="369" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.3">..........................................................................................</text>
+    <text x="1140" y="369" font-family="monospace" font-size="14"
+          fill="#1E293B" text-anchor="end"
+          textLength="64" lengthAdjust="spacingAndGlyphs">yabildos</text>
+
+    <text x="488" y="392" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.85">Grid.GitHub</text>
+    <text x="576" y="392" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.3">...........................................................................................</text>
+    <text x="1140" y="392" font-family="monospace" font-size="14"
+          fill="#1E293B" text-anchor="end"
+          textLength="64" lengthAdjust="spacingAndGlyphs">yabildos</text>
+
+    <text x="488" y="415" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.85">Grid.Facebook</text>
+    <text x="592" y="415" font-family="monospace" font-size="14"
+          fill="#1E293B" opacity="0.3">..........................................................................................</text>
+    <text x="1140" y="415" font-family="monospace" font-size="14"
+          fill="#1E293B" text-anchor="end"
+          textLength="64" lengthAdjust="spacingAndGlyphs">yabildos</text>
+
+    <!-- Handle pill -->
+    <rect x="488" y="555" width="105" height="26" rx="13" fill="#10B981" opacity="0.15" stroke="#10B981" stroke-width="1"/>
+    <text x="500" y="573" font-size="14" fill="#10B981">@yabildos</text>
+  </g>
+</svg>
